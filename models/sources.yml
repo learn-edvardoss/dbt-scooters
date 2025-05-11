@@ -1,0 +1,11 @@
+version: 2
+sources:
+  - name: scooters_raw
+    database: dev
+    schema: scooters_raw
+    tables:
+      - name: events
+      - name: payments
+      - name: trips
+      - name: users
+      

@@ -1,0 +1,13 @@
+version: 2
+
+macros:
+  - name: "updated_at"
+    description: "Columns which represents timestamp of the last update"
+
+  - name: "select_first_value"
+    description: "Query database and get first value from first column of result"
+    arguments:
+      - name: "query"
+        type: "string"
+        description: "SQL query to get scalar value from database during compilation"
+
